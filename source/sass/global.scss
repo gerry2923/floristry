@@ -1,29 +1,23 @@
 body {
   min-width: 1920px;
   margin: 0;
-
- 
-  // background-image: url('../img/background.png');
-
-  // background-size: 1920px 1044px;
-  
-  // background:  url('../img/background.png'), ;
-  background: linear-gradient(to bottom, transparent 18%, #3B181E 20% 100%), url('../img/background.png');
+  background: linear-gradient(to bottom, transparent 18%, #3B181E 20% 100%),
+              url('../img/background.jpg');
   background-repeat: no-repeat;
   background-position: top center;   
-
-  font-family: "Raleway", "Open Sans", sans-serif; // Verdana, Arial, Helvetica, sans-serif;
-  // font-family: "Roboto Slab", "Arial", serif; // Times, Times New Roman, Georgia, serif
+  // font-family: "Forum", "Times New Roman", "Times", "Arial", serif; 
+  font-family: 'Forum', cursive, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: $font-clr;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 a {
@@ -91,4 +85,13 @@ a {
   // color: $font-color-basic;
 
   // margin: 0px 0px 0px 0px;
+}
+
+.container {
+  width: 1750px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: 1px solid lightyellow;
+  outline-offset: -1px;;
 }

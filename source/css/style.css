@@ -19,8 +19,7 @@
 body {
   min-width: 1920px;
   margin: 0;
-  background-image: url("../img/background.png");
-  background: url("../img/background.png"), linear-gradient(to bottom, transparent 35%, #3B181E 45% 100%);
+  background: linear-gradient(to bottom, transparent 18%, #3B181E 20% 100%), url("../img/background.png");
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Raleway", "Open Sans", sans-serif;

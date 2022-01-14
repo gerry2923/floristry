@@ -7,7 +7,7 @@
 body {
   min-width: 1920px;
   margin: 0;
-  background: linear-gradient(to bottom, transparent 18%, #3B181E 20% 100%), url("../img/background.jpg");
+  background: linear-gradient(to bottom, transparent 8%, #3B181E 11% 100%), url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Forum", cursive, serif;
@@ -46,6 +46,24 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.button {
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: 1.2em;
+  letter-spacing: 0.1455em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  width: 199px;
+  padding: 1.42em 2.5em;
 }
 
 .container {
@@ -117,6 +135,8 @@ a {
 
 .promo {
   padding-top: 98px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .title {
@@ -130,5 +150,111 @@ a {
   text-align: center;
   margin-right: 5px;
   margin-bottom: 10px;
+}
+
+.promo__button {
+  margin-top: 81px;
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.promo__nav-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.promo__nav-wrapper::before {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 58px;
+  background-image: url("../img/watch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 154px;
+  left: 848px;
+}
+
+.promo__link {
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  letter-spacing: 0.06em;
+  color: inherit;
+  writing-mode: vertical-lr;
+  margin-left: auto;
+  margin-right: 19px;
+  position: relative;
+}
+
+.promo__link::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/arrow_down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  bottom: 18px;
+  right: 2px;
+}
+
+.socials {
+  list-style: none;
+  margin: 0px;
+  padding: 15px 2px;
+}
+
+.socials__item {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  outline-color: blue;
+  margin-top: 24px;
+}
+
+.socials__item::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.insta {
+  background-image: url("../img/insta.svg");
+  background-position: center;
+  background-size: contain;
+}
+
+.fb {
+  background-image: url("../img/fb.svg");
+  background-position: center;
+  background-size: contain;
+}
+
+.whatsapp {
+  background-image: url("../img/wtsap.svg");
+  background-position: center;
+  background-size: contain;
+}
+
+.vk {
+  background-image: url("../img/vk.svg");
+  background-position: center;
+  background-size: contain;
+}
+
+.socials__link {
+  color: inherit;
+  display: block;
+  text-indent: 100%;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

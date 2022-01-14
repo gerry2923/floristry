@@ -1,5 +1,7 @@
 .promo {
 	padding-top: 98px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .title {
@@ -14,8 +16,56 @@
 	margin-right: 5px;
 	margin-bottom: 10px;
 }
-.promo__ {}
-.promo__ {}
-.promo__ {}
-.promo__ {}
-.promo__ {}
+
+.promo__button {
+	margin-top: 81px;
+	margin-bottom: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.promo__nav-wrapper {
+	display: flex;
+	position: relative;
+}
+
+.promo__nav-wrapper::before {
+	content: "";
+	display: block;
+	width: 38px;
+	height: 58px;
+	background-image: url("../img/watch.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	position: absolute;
+	top: 154px;
+	left: 848px;
+}
+
+.promo__link {
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	letter-spacing: 0.06em;
+	color: inherit;
+
+	writing-mode: vertical-lr;
+	margin-left: auto;
+	margin-right: 19px;
+	position: relative;
+}
+
+.promo__link::after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/arrow_down.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	bottom: 18px;
+	right: 2px;
+}

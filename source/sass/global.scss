@@ -1,7 +1,7 @@
 body {
   min-width: 1920px;
   margin: 0;
-  background: linear-gradient(to bottom, transparent 18%, #3B181E 20% 100%),
+  background: linear-gradient(to bottom, transparent 8%, #3B181E 11% 100%),
               url('../img/background.jpg');
   background-repeat: no-repeat;
   background-position: top center;   
@@ -45,20 +45,23 @@ a {
 }
 
 .button {
-  // font-family: "Raleway", "Open Sans", sans-serif;
-  // font-weight: normal;
-  // font-style: normal;
-  // font-size: 0.875rem;
-  // line-height: 3.43em;
-  // color: $font-clr-light;
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: 1.2em;
+  letter-spacing: 0.1455em;
+  text-transform: uppercase;
+  color: $font-clr;
 
-  // background-color: $button-bgd;
-  // text-align: center;
-  // vertical-align: middle;
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid #fff;
 
-  // display: block;
-  // width: 202px;
-  // height: 47px;;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  width: 199px;
+  padding: 1.42em 2.5em;
 }
 
 .section__header {

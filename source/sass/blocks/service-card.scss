@@ -1,0 +1,123 @@
+.service-card {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 10px;
+
+
+	// counter-reset: num;
+	position: relative;
+}
+
+.service-card::before {
+	counter-increment: num;
+	content: counter(num, decimal-leading-zero);
+	display: block;
+	position: absolute;
+	top: 48px;
+	left: 30px;
+	font-family: "Forum",  cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	color: $font-clr;
+	z-index: 100;
+}
+
+.service-card::after {
+	content: "";
+	width: 70px;
+	height: 1px;
+	border-top: 1px solid $font-clr;
+	position: absolute;
+	top: 65px;
+	right: 217px;
+}
+
+.service-card img {
+	order: -1;
+	// opacity: 80%;
+}
+
+.service-card:nth-child(7) div{
+	position: relative;
+	order: -1;
+}
+
+/* Дополнительная тень вокруг картинки
+ а) box-shadow
+ б) linear-gradient
+ не применяются непосредственно к тэгу img */
+.service-card:nth-child(7) div::before {
+	content: "";
+	display: block;
+	width: 330px;
+	height: 146px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: inset 2px 2px 30px 5px rgba(0, 0, 0, 0.5),
+							inset -2px -2px 30px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.service-card__title {
+	font-family: "Forum", cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin: 20px auto 0 0;
+	padding: 0;
+	order: 0;
+
+}
+
+.service-card__link {
+	font-family: "Forum", cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 1.2em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	margin: 27px auto 5px 0;
+	padding: 0;
+	color: inherit;
+	order: 1;
+
+}
+
+.service-card:not(:first-child) .service-card__link{
+	margin-top: 55px;
+}
+
+.service-card:nth-child(4n+1),
+.break:nth-child(8n+1) {
+	order: -1;
+}
+
+.service-card:nth-child(4n+2),
+.break:nth-child(8n+2) {
+	order: 0;
+}
+
+.service-card:nth-child(4n+3),
+.break:nth-child(8n+3) {
+	order: 1;
+}
+
+.service-card:nth-child(4n) {
+	order: 2;
+}
+
+.break {
+	margin: 0;
+	padding: 0;
+	width: 0;
+	flex-basis: 100%;
+}

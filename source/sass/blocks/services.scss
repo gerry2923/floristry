@@ -1,0 +1,71 @@
+.services {
+
+}
+
+// .services *{
+// 	outline: 1px dashed gold;
+// 	outline-offset: -1px;
+// }
+
+.container__wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.services__title {
+	font-family: "Forum", cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875rem;
+	line-height: 1.2em;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0px 14px 0px 0px;
+}
+
+.services__subtitle {
+	font-family: "Forum", cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13.75rem;
+	line-height: 1.2em;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	opacity: 0.03;
+	position: absolute;
+	top: 4px;
+	left: 23px;
+}
+
+.services__list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 1120px;
+	// width: 1520px;
+	list-style-type: none;
+	counter-reset: num;
+
+
+	margin: 114px 80px 0px 97px;
+	padding: 0px 0px 0px 0px;
+
+	align-content: space-between;
+	align-items: flex-start;
+
+	outline: 1px solid pink;
+	outline-offset: -1px;
+
+}
+
+.services__item {
+	width: 350px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+
+	outline-offset: -1px;
+	outline: 1px dashed #7FFFD4;
+}

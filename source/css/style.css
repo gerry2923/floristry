@@ -443,7 +443,7 @@ a {
   flex-direction: row;
   outline-color: red;
   outline-style: solid;
-  margin: 0 auto 100px;
+  margin: 0 auto 250px;
   padding-top: 212px;
 }
 
@@ -514,5 +514,99 @@ a {
 .sales__button {
   width: 220px;
   padding: 1.07rem 1.7rem;
+}
+
+.portfolio * {
+  outline: 1px dashed #7FFFD4;
+  outline-offset: -1px;
+}
+
+.portfolio {
+  display: flex;
+}
+
+.column__photo {
+  width: 58%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  padding-top: 18px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.column__text {
+  width: 42%;
+  margin-right: auto;
+}
+
+.column__text-wrapper {
+  width: 699px;
+  padding-top: 5.99rem;
+  padding-left: 83px;
+}
+
+.portfolio__picture_big::after {
+  content: "";
+  display: block;
+  width: 996px;
+  height: 801px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 45px;
+  right: 1px;
+}
+
+.portfolio__title {
+  font-family: "Forum", cursive, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.125rem;
+  line-height: 1.1em;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.portfolio__title::after {
+  content: "";
+  display: block;
+  width: 5.34375rem;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -32px;
+  left: 0px;
+}
+
+.portfolio__text {
+  font-family: "Forum", cursive, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  margin: 0px;
+}
+
+.portfolio__text:last-child {
+  background: red;
+}
+
+.portfolio__button {
+  margin-top: 33px;
+  margin-bottom: 100px;
+  width: 135px;
+}
+
+.portfolio__picture-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__picture {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */

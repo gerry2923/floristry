@@ -1,0 +1,45 @@
+.gift-cards {
+	margin-bottom: 261px;
+	padding-bottom: 10px;
+}
+
+.gift-cards__title {
+	font-family: "Forum", cursive, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.875rem;
+	line-height: 1.1em;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	position: relative;
+	padding-top: 14px;
+	padding-bottom: 50px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.gift-cards__title::after {
+	content: "";
+	display: block;
+	width: 5.34375rem;
+	height: 2px;
+	background-color: $font-clr;
+	position: absolute;
+	bottom: 27px;
+	left: 809px;
+}
+
+.gift-cards__list {
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+	padding-left: 13px;
+}
+
+.gift-cards__item {
+
+}
+

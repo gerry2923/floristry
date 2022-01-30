@@ -516,13 +516,9 @@ a {
   padding: 1.07rem 1.7rem;
 }
 
-.portfolio * {
-  outline: 1px dashed #7FFFD4;
-  outline-offset: -1px;
-}
-
 .portfolio {
   display: flex;
+  margin-bottom: 230px;
 }
 
 .column__photo {
@@ -608,5 +604,190 @@ a {
 
 .portfolio__picture {
   margin-right: 20px;
+}
+
+.gift-cards {
+  margin-bottom: 261px;
+  padding-bottom: 10px;
+}
+
+.gift-cards__title {
+  font-family: "Forum", cursive, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 1.1em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.gift-cards__title::after {
+  content: "";
+  display: block;
+  width: 5.34375rem;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 27px;
+  left: 809px;
+}
+
+.gift-cards__list {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  padding-left: 13px;
+}
+
+.certificate {
+  width: 348px;
+  height: 574px;
+  margin-right: 30px;
+  margin-top: 67px;
+  position: relative;
+  background-color: #281014;
+}
+
+.certificate::before {
+  content: "";
+  display: block;
+  width: 306px;
+  height: 61px;
+  position: absolute;
+  top: 367px;
+  left: 20px;
+  background-image: url("../img/certificate-deco-1.svg");
+}
+
+.certificate__number {
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 9px;
+  right: 9px;
+}
+
+.certificate__price {
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.2em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 186px;
+  left: 10px;
+}
+
+.certificate__text {
+  text-align: center;
+  margin: 70px 0 111px;
+  padding: 0 32px;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+}
+
+.certificate__button {
+  margin: 0 auto;
+  width: 134px;
+}
+
+.certificate_big {
+  width: 420px;
+  height: 694px;
+  margin-top: 7px;
+  position: relative;
+}
+.certificate_big .certificate__number {
+  top: 10px;
+  right: 9px;
+  font-size: 1.3125rem;
+  letter-spacing: 0.06em;
+}
+.certificate_big .certificate__price {
+  top: 230px;
+  left: 10px;
+  font-size: 1.3125rem;
+  letter-spacing: 0.06em;
+}
+.certificate_big .certificate__text {
+  margin: 99px 0 128px;
+  padding: 0 66px 0 72px;
+}
+.certificate_big::before {
+  background-image: url("../img/certificate-big.svg");
+  top: 444px;
+  left: 20px;
+}
+
+.partners * {
+  outline: 1px dotted LightPink;
+  outline-offset: -1px;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 195px;
+}
+
+.partners__title {
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.875rem;
+  line-height: 1.1em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px 0px 90px 0px;
+  padding: 0px 16px 0px 0px;
+  position: relative;
+}
+
+.partners__title::after {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -23px;
+  left: 101px;
+}
+
+.partners__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1176px;
+  margin: 0px 17px 0px 0px;
+  padding: 0px;
+  column-gap: 33px;
+  row-gap: 34px;
+}
+
+.partners__item {
+  margin: 0px;
+  padding: 0px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,7 @@
 	padding-right: 10px;
 	position: relative;
 }
+
 .column__text {
 	width: 42%;
 	margin-right: auto;
@@ -26,6 +27,7 @@
 .portfolio__picture {
 
 } 
+
 .portfolio__picture_big::after {
 	content: "";
 	display: block;
@@ -83,6 +85,7 @@
 	width: 135px;
 
 }
+
 .portfolio__picture-list {
 	list-style: none;
 	display: flex;

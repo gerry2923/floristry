@@ -71,8 +71,6 @@ a {
   width: 1750px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 1px solid lightyellow;
-  outline-offset: -1px;
 }
 
 .main-header {
@@ -80,13 +78,6 @@ a {
   margin: 0 auto;
   padding-top: 87px;
   padding-bottom: 10px;
-  outline: 1px solid azure;
-  outline-offset: -1px;
-}
-
-.main-header * {
-  outline: 1px dotted gold;
-  outline-offset: -1px;
 }
 
 .main-header__nav {
@@ -305,16 +296,12 @@ a {
   padding: 0px 0px 0px 0px;
   align-content: space-between;
   align-items: flex-start;
-  outline: 1px solid pink;
-  outline-offset: -1px;
 }
 
 .services__item {
   width: 350px;
   margin-right: 40px;
   margin-bottom: 40px;
-  outline-offset: -1px;
-  outline: 1px dashed #7FFFD4;
 }
 
 .service-card {
@@ -433,16 +420,9 @@ a {
   flex-basis: 100%;
 }
 
-.sales * {
-  outline: 1px dashed gold;
-  outline-offset: -1px;
-}
-
 .sales__wrapper {
   display: flex;
   flex-direction: row;
-  outline-color: red;
-  outline-style: solid;
   margin: 0 auto 250px;
   padding-top: 212px;
 }
@@ -738,11 +718,6 @@ a {
   left: 20px;
 }
 
-.partners * {
-  outline: 1px dotted LightPink;
-  outline-offset: -1px;
-}
-
 .partners {
   display: flex;
   flex-direction: column;
@@ -789,5 +764,50 @@ a {
 .partners__item {
   margin: 0px;
   padding: 0px;
+}
+
+.main-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.additional-site-nav {
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 19px 355px;
+  margin: 0px 0px 0px;
+  column-gap: 64px;
+  row-gap: 15px;
+}
+
+.additional-site-nav__item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.additional-site-nav__link {
+  font-family: "Forum", cursive, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.1em;
+  color: #fff;
+}
+
+.main-footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  column-gap: 50px;
+  padding: 4px 17px 6px 0;
+  margin: 0 auto 65px auto;
+}
+
+.main-footer .socials__item {
+  margin: 0px;
 }
 /*# sourceMappingURL=style.css.map */

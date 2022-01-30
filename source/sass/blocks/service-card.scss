@@ -4,9 +4,6 @@
 	width: 350px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 10px;
-
-
-	// counter-reset: num;
 	position: relative;
 }
 
@@ -38,7 +35,6 @@
 
 .service-card img {
 	order: -1;
-	// opacity: 80%;
 }
 
 .service-card:nth-child(7) div{
@@ -74,7 +70,6 @@
 	margin: 20px auto 0 0;
 	padding: 0;
 	order: 0;
-
 }
 
 .service-card__link {
@@ -89,7 +84,6 @@
 	padding: 0;
 	color: inherit;
 	order: 1;
-
 }
 
 .service-card:not(:first-child) .service-card__link{

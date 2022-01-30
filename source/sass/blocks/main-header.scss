@@ -3,13 +3,6 @@
 	margin: 0 auto;
 	padding-top: 87px;
 	padding-bottom: 10px;
-
-	outline: 1px solid azure;
-	outline-offset: -1px;
-}
-.main-header *{
-	outline: 1px dotted gold;
-	outline-offset: -1px;
 }
 
 .main-header__nav {
@@ -18,10 +11,10 @@
 }
 
 .main-header__logo {
+
 }
 
 .main-header__phone {
-	// font-family: "Forum", "Times New Roman", "Arial", serif;
 	font-family: 'Forum', cursive;
 	font-style: normal;
 	font-weight: normal;
